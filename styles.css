@@ -3,6 +3,10 @@
     font-family: 'Raleway', sans-serif;
 */
 
+:root {
+   --whiteColor: #fff;
+
+}
 
 
 .contact-section {
