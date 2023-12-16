@@ -3,16 +3,38 @@
     font-family: 'Raleway', sans-serif;
 */
 
-:root {
-   --whiteColor: #fff;
-
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+}
+
+:root {
+    --whiteColor: #fff;
+    --darkRedBg: #BE3144;
+    --granateText: #A12E43;
+    --darkGrayBg: #242527;
+    --darkBlueBg: #303841;
+}
+
+.header {
+    width: 100%;
+    min-height: 90px;
+    background-color: var(--darkRedBg);
+    position: fixed;
+}
+
+
 
 
 .contact-section {
-    background-color: #303841;
+    background-color: var(--darkBlueBg);
 }
 
 i {
-    color: #fff;
+    color: var(--whiteColor);
 }
