@@ -158,11 +158,11 @@
 
     text-decoration: none;
     color: var(--whiteColor);
+    transition: background-color .4s ease-out;
 }
 
 .btn-show-all:hover {
     background-color: var(--granateText);
-    transition: background-color .4s ease-out;
 }
 
 .btn-show-all:hover > .fa-chevron-right {
@@ -184,15 +184,64 @@
     }
 }
 
-
-
-
-
+/* Contact section */
 
 .contact-section {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--darkBlueBg);
+    border-bottom: 5px solid var(--darkRedBg);
+    color: var(--whiteColor);
 }
 
-i {
-    color: var(--whiteColor);
+
+.contact-title {
+    font-family: var(--Raleway);
+    font-size: 3.75rem;
+}
+
+.contact-description {
+    font-family: var(--Poppins);
+    font-style: italic;
+    font-size: 1.125rem;
+}
+
+.social {
+    margin-top: 2.5rem;
+}
+
+.social > li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: var(--Poppins);
+    font-size: 1.5rem;
+    transition: 0.3s ease-out;
+}
+
+.social > li:hover {
+    transform: translateY(8px);
+}
+
+.social-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-link > i {
+    color: inherit;
+}
+
+.social-link > i {
+    color: inherit;
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--darkBlueBg);
 }
