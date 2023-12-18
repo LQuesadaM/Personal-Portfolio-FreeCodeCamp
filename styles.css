@@ -98,7 +98,8 @@
 
 .projects-section {
     background-color: var(--bgProjectSection);
-    padding: 0 1.5rem;
+    padding: 0 1rem 6rem 1rem;
+    text-align: center;
 }
 
 .project-title {
@@ -114,17 +115,16 @@
     display: block;
     width: 625px;
     border: 1px solid var(--whiteColor);
-    margin: auto;
-    margin-top: 5px;
+    margin: 5px auto 2rem auto;
 }
 
 .projects-grid-template {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     grid-gap: 2rem;
-    max-width: 1280px;
+    max-width: 1250px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 5rem auto;
 }
 
 .project-link {
@@ -133,8 +133,9 @@
 }
 
 .project-link img {
+    display: block;
     width: 100%;
-    height: 90%;
+    height: 85%;
     object-fit: cover;
 }
 
@@ -142,13 +143,22 @@
     font-family: var(--Poppins);
     font-size: 20px;
     text-align: center;
+    background-color: var(--darkBlueBg);
+    padding: 1rem;
 }
 
+.btn-show-all {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--darkBlueBg);
 
-/* temporal */
-.footer {
-    display: none;
+    font-family: var(--Poppins);
+    font-size: 20px;
+
+    text-decoration: none;
+    color: var(--whiteColor);
 }
+
 
 
 
