@@ -124,7 +124,7 @@
     grid-gap: 2rem;
     max-width: 1250px;
     width: 100%;
-    margin: 0 auto 5rem auto;
+    margin: 0 auto 4rem auto;
 }
 
 .project-link {
@@ -151,12 +151,37 @@
     display: inline-block;
     padding: 10px 20px;
     background-color: var(--darkBlueBg);
+    border-radius: 2px;
 
     font-family: var(--Poppins);
     font-size: 20px;
 
     text-decoration: none;
     color: var(--whiteColor);
+}
+
+.btn-show-all:hover {
+    background-color: var(--granateText);
+    transition: background-color .4s ease-out;
+}
+
+.btn-show-all:hover > .fa-chevron-right {
+    animation-name: greaterThanToRight;
+    animation-duration: .3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+/* Keyframes */
+
+@keyframes greaterThanToRight {
+    0% {
+        transform: translate(2px);
+    }
+
+    100% {
+        transform: translate(2px);
+    }
 }
 
 
