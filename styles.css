@@ -243,5 +243,30 @@
 /* footer */
 
 .footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--whiteColor);
+    padding: 20px;
     background-color: var(--darkBlueBg);
+    font-size: 1.125rem;
+    font-family: var(--Poppins);
+    font-weight: 200;
 }
+
+.footer * {
+    color: inherit;
+}
+
+.footer > p {
+    margin: 20px;
+}
+
+.footer  a {
+    text-decoration: none;
+}
+
+.footer  i {
+    text-decoration: underline;
+}
+
+
